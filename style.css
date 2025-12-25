@@ -37,6 +37,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 220px;
+  z-index: 2;
 }
 
 /* SLIDE 2 */
@@ -89,12 +90,12 @@ body {
   font-weight: bold;
   font-style: italic;
   font-size: 2rem;
-  color: red;
+  color: white;
   text-shadow: 
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,  
-    -1px 1px 0 #000,  
-     1px 1px 0 #000;
+    -2px -2px 0 red,  
+     2px -2px 0 red,  
+    -2px 2px 0 red,  
+     2px 2px 0 red;
   animation: textFade 2s ease forwards;
 }
 
